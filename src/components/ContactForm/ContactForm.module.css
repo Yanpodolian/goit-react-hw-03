@@ -1,0 +1,41 @@
+.contactForm {
+  padding: 15px;
+  margin-bottom: 20px;
+  border: 2px solid #2196f3;
+  border-radius: 10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+label {
+  font-size: 14px;
+}
+
+input {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.buttonAddcontact {
+  margin: 0 auto;
+  border-radius: 5px;
+  cursor: pointer;
+  background-color: #d8dee2;
+  width: 140px;
+}
+
+.buttonAddcontact:hover,
+.buttonAddcontact:focus {
+  background-color: #45a049;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
